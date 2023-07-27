@@ -1,0 +1,13 @@
+/* ImageList.css */
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px; /* Adjust as needed to add space between grid items */
+  padding: 30px;
+}
+
+.list img {
+  width: 100%; 
+  height: auto;
+  border-radius: 20px;
+}
